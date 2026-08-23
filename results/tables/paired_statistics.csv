@@ -1,0 +1,2 @@
+comparison,mean_difference,sd_difference,wilcoxon_p,ttest_t,ttest_p,n
+EIC-Greedy - Fixed-Frame,0.6039890692557607,0.22302257983716273,9.254424784186016e-43,42.8203534836682,7.792181882740308e-117,250

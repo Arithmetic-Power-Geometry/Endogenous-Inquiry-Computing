@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endogenous-inquiry-computing"
+version = "2.0.0"
+description = "Reference algorithms, EICBench v2, and interactive experiments for problem frames as computational states."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Mohammad Amir Khusru Akhtar"}]
+dependencies = [
+  "numpy>=2.0", "pandas>=2.2", "scikit-learn>=1.5",
+  "scipy>=1.13", "matplotlib>=3.9", "gradio>=5.0"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

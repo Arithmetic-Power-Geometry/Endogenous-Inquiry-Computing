@@ -1,0 +1,5 @@
+method,performance,frame_recovery,mean_cost
+EIC-Beam,0.9644042751870996,1.0,2.0
+EIC-Greedy,0.7461725248035538,0.0,1.0
+Fixed-Frame,0.6028174252303551,0.0,0.0
+Oracle,0.9644042751870996,1.0,2.0

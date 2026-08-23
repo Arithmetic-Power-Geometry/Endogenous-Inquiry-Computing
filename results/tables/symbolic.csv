@@ -1,0 +1,5 @@
+method,performance,frame_recovery,mean_cost
+EIC-Symbolic,0.9375796165496579,1.0,1.0
+Fixed-Frame,0.5159205247136792,0.0,0.0
+Oracle,0.9375796165496579,1.0,1.0
+Raw-Feature-Search,0.5156338265145747,0.0,0.8
